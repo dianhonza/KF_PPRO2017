@@ -24,8 +24,12 @@
             <td><c:out value="${owner.city}"/></td>
         </tr>
         <tr>
-            <th>Telephone</th>
-            <td><c:out value="${owner.telephone}"/></td>
+        <th>Telephone</th>
+        <td><c:out value="${owner.telephone}"/></td>
+    </tr>
+        <tr>
+            <th>Email</th>
+            <td><c:out value="${owner.email}"/></td>
         </tr>
     </table>
 
